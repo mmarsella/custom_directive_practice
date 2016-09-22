@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="pokeApp">
+<head>
+	<title>Poke Directive</title>
+</head>
+<body ng-controller="PokeController">
+
+
+<pokemon-stats pokeStats="randomPokemon" ng-repeat="randomPokemon in view.pokemon"></pokemon-stats>	
+
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
